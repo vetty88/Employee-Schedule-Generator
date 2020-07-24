@@ -1,0 +1,11 @@
+
+        Team: Hammond Engineering,;
+        Name: Travis,;
+        ID: 1,;
+        Email: trav@hammeng.com,;
+        Role: Manager,;
+        *Managers* Office Number: 1,;
+        *Engineers* Github User: ,;
+        *Students* School: ,;
+
+        
