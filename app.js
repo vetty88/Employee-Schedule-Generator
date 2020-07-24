@@ -1,3 +1,4 @@
+
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -12,20 +13,9 @@ const render = require("./lib/htmlRenderer");
 
 const employeeTeam = [];
 
-// create a new Manager using inquire/console log prompts
 function createManager() {
     inquirer
-        .prompt([{
-                name: "teamName",
-                type: "input",
-                message: "What is your team's name?",
-                validate: async (input) => {
-                    if (input == "" || /\s/.test(input)) {
-                        return "Please enter team name.";
-                    }
-                    return true;
-                }
-            },
+        .prompt([
             {
                 name: "name",
                 type: "input",
@@ -72,13 +62,11 @@ function createManager() {
             },
         ])
         .then(function(response) {
-            console.log(response);
             const newManager = new Manager(
                 response.name,
                 response.id,
                 response.email,
-                response.number,
-                response.teamName
+                response.number
             );
             employeeTeam.push(newManager);
             createTeam();
@@ -90,22 +78,20 @@ createManager();
 // prompts for adding other team members
 function createTeam() {
     inquirer
-        .prompt([{
+        .prompt([
+            {
             name: "addMember",
             type: "list",
             message: "Would you like to add a team member?",
             choices: [
-                "Yes, add a Manager",
                 "Yes, add an Engineer",
                 "Yes, add an Intern",
                 "No my team is complete",
             ],
-        }, ])
+        }
+        ])
         .then(function(data) {
             switch (data.addMember) {
-                case "Yes, add a Manager":
-                    createManager();
-                    break;
                 case "Yes, add an Engineer":
                     createEngineer();
                     break;
@@ -229,6 +215,8 @@ function createIntern() {
         });
 }
 // add a new intern function end
+
+
 
 // function to create team
 function buildTeam() {
