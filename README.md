@@ -16,6 +16,7 @@
 
 Screenshot of Project (Google Chrome): 
 ![Screenshot](Screen.PNG?raw=true "Screenshot")
+website: https://vetty88.github.io/Employee-Schedule-Generator/output/team.html
 
 
 ## Installation
@@ -28,7 +29,7 @@ This is an example of how to list things you need to use the software and how to
 
 Installation-
   Clone the repo
-    git clone https://github.com/vetty88@github.com/Employee Schedule Generator.git
+    git clone https://github.com/vetty88@github.com/Employee-Schedule-Generator.git
   Install NPM packages
     npm install
     npm inquirer
