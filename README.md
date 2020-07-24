@@ -86,9 +86,11 @@ Project Link: https://github.com/vetty88@github.com/Employee-Schedule-Generator
 vetty88@github.com
 
 **Credits**
-Code Author: Monash University/Trilogy Education.
+Code Author (original assignment): Monash University/Trilogy Education.
+
 
 Resources utilised to research to edit the code: 
+* I researched a number of peer repos but settled on of a fellow student for the most relevant code to reference: https://github.com/Lihuor/TE_Employee_Summary
 * Monash University ReadMe and Slide Materials
 * Mozilla MDN WebDocs: https://developer.mozilla.org/en-US/ 
 * W3 Schools: https://www.w3schools.com/
