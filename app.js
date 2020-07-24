@@ -16,7 +16,7 @@ const employeeTeam = [];
 function createManager() {
     inquirer
         .prompt([{
-                name: "teamname",
+                name: "teamName",
                 type: "input",
                 message: "What is your team's name?",
                 validate: async (input) => {
@@ -74,11 +74,11 @@ function createManager() {
         .then(function(response) {
             console.log(response);
             const newManager = new Manager(
-                response.teamname,
                 response.name,
                 response.id,
                 response.email,
-                response.number
+                response.number,
+                response.teamName
             );
             employeeTeam.push(newManager);
             createTeam();
