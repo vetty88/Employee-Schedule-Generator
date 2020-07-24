@@ -1,4 +1,8 @@
- <!-- TABLE OF CONTENTS -->
+✨* *<h1>  Employee Schedule Generator </h1>* ✨*
+
+*This project generates a website of employee team members, populated from questions asked in the console
+  
+   <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -10,11 +14,8 @@
 - [Contact](#contact)
 - [Creator and Acknowledgements](#creator-and-acknowledgements)
 
-<h1> ## Employee Schedule Generator </h1>
-
-  This project generates a website of employee team members, populated from questions asked in the console
-
-  [![Employee Schedule Generator Screen Shot][project-screenshot]](https://example.com)
+Screenshot of Project (Google Chrome): 
+![Screenshot](Screen.PNG?raw=true "Screenshot")
 
 
 ## Installation
@@ -63,22 +64,35 @@ Fork the Project
 ## Tests
 
 See the open issues for a list of proposed features (and known issues). Testing completed and any known issues include the following:
- Testing was extensive in VS Code. There are no known issues, but ideas such as adding a Team Name have been unsuccessful to date. The launched version will likely be modified in the future to reflect more of an organisational structure look and function.
+* Inspect feature (Google) utilised to test and tidy CSS and Javascript code.
+* Testing was extensive in VS Code. There are no known issues, but ideas such as adding a Team Name have been unsuccessful to date. 
+* The launched version will likely be modified in the future to reflect more of an organisational structure look and function.
+ 
  
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 ## Contact
 
 Your Name - vetty88@gmail.com
 
-Project Link: https://github.com/vetty88@github.com/Employee Schedule Generator
+Project Link: https://github.com/vetty88@github.com/Employee-Schedule-Generator
 
 ## Creator and Acknowledgements
 
 vetty88@github.com
 
---Acknowledgements
-* []
-* []
+**Credits**
+Code Author: Monash University/Trilogy Education.
+
+Resources utilised to research to edit the code: 
+* Monash University ReadMe and Slide Materials
+* Mozilla MDN WebDocs: https://developer.mozilla.org/en-US/ 
+* W3 Schools: https://www.w3schools.com/
+* Stack Overflow: https://www.stackoverflow.com/
+
+**Badges**
+
+![Made with love in Bairnsdale ](https://madewithlove.now.sh/au?heart=true&template=plastic&text=Bairnsdale+)
