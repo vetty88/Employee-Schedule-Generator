@@ -42,7 +42,7 @@ Installation-
 
 ## Usage
 
-This project can be used for undefined. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This project can be used for generating employee contact details for a team, visually displaying a team structure and roles. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 For more examples, please refer to the Documentation
 
