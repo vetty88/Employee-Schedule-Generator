@@ -18,6 +18,8 @@ Screenshot of Project (Google Chrome):
 ![Screenshot](Screen.PNG?raw=true "Screenshot")
 website: https://vetty88.github.io/Employee-Schedule-Generator/output/team.html
 
+Demo video uploaded here: https://github.com/vetty88/Employee-Schedule-Generator/blob/master/EmployeeSchedulevid.mp4
+
 
 ## Installation
 To get a local copy up and running follow these simple steps.
