@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/vetty88/template-engine-work-team.git",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "broadcast": "^3.0.0",
     "chalk": "^4.1.0",
     "cjs": "0.0.11",
